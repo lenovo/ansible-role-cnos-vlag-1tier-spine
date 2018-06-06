@@ -14,6 +14,5 @@
 
 
 [cnos-vlag-1tier-spine]
-10.240.178.76   username=<username> password=<password> deviceType=g8272_cnos peerip=10.240.178.77
-10.240.178.77   username=<username> password=<password> deviceType=g8272_cnos peerip=10.240.178.76
-
+10.240.178.76   ansible_network_os=cnos ansible_ssh_user=<username> ansible_ssh_pass=<password> deviceType=g8272_cnos peerip=10.240.178.77
+10.240.178.77   ansible_network_os=cnos ansible_ssh_user=<username> ansible_ssh_pass=<password> deviceType=g8272_cnos peerip=10.240.178.76
